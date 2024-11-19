@@ -1,0 +1,25 @@
+.container { 
+    max-width: 600px; margin: 20px auto; 
+}
+h3, h2 { 
+    text-align: center; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+.tableHead{
+    background-color: #f6f8b5;
+}
+th, td { 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    text-align: center; 
+}
+.files{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
