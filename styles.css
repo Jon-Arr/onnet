@@ -8,14 +8,17 @@ table {
     width: 100%; 
     border-collapse: collapse; 
     margin: 20px 0;
+    border: 2px black solid;
 }
 .tableHead{
     background-color: #f6f8b5;
+    border: 2px black solid;
 }
 th, td { 
     padding: 10px; 
     border: 1px solid #ddd; 
     text-align: center; 
+    border: 1px black solid;
 }
 .files{
     display: flex;
